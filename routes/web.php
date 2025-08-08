@@ -18,7 +18,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/about', function () {
-    dd('about');
+    dd('about me');
 })->name('about');
 
 require __DIR__.'/auth.php';
